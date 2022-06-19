@@ -5,7 +5,7 @@
 }
 body{
     background-color: hsl(0, 100%, 74%);
-    background-image: url(./bg-intro-desktop.png);
+    background-image: url('bg-intro-desktop.png');
     background-repeat: no-repeat;
 }
 main{
@@ -109,6 +109,10 @@ form p span{
 }
 
 @media screen and (max-width:375px) {
+
+    body{
+        background-image: url('bg-intro-mobile.png');
+    }
     main{
         width: 100%;
         display: flex;
